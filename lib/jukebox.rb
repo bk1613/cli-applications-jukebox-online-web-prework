@@ -20,7 +20,7 @@ def help
 end
 
 def play(song_list)
-  array_num = [1..9]
+  array_num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
   puts "Please enter a song name or number:"
   input_song = gets.strip
   if (1..9).to_a.include?(input_song.to_i)
