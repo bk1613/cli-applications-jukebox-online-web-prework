@@ -52,7 +52,7 @@ def run
     
   elsif input == "list"
     
-  elsif input == "play"
+  elsif input == "exit"
     
   end
 end
