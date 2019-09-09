@@ -23,4 +23,6 @@ def list
   
 end
 
-def 
+def exit_jukebox
+  
+end
