@@ -48,10 +48,10 @@ def exit_jukebox
 end
 
 def run(songs)
-  puts "Please enter a command:"
-  input = gets.downcase.strip
+  input = ""
   while input
-    
+    puts "Please enter a command:"
+    input = gets.strip
     case input
     when 'list'
       list(songs)
