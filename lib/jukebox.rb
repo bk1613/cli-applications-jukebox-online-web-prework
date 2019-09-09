@@ -49,7 +49,7 @@ def run
   if input == "play"
     
   elsif input == "help"
-    
+    help
   elsif input == "list"
     
   elsif input == "exit"
