@@ -53,6 +53,9 @@ def run
   
   while input
   
+  
+  
+  end
   if input == "play"
     play(song)
   elsif input == "help"
