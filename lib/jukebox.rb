@@ -12,14 +12,14 @@ songs = [
 ]
 
 def help
-  
+  puts ""
 end
 
 def play
   
 end
 
-def list
+def list(song_list)
   
 end
 
@@ -28,5 +28,6 @@ def exit_jukebox
 end
 
 def run
+  input = gets.strip
   
 end
