@@ -48,29 +48,25 @@ def exit_jukebox
 end
 
 def run(songs)
-  help
-
-  command = get_command
-
-  while command != "exit" do
-    case command
-    when "help"
+  input = ""
+  while input
+    puts "Please enter a command:"
+    input = gets.downcase.strip
+    case input
+    when 'list'
+      list(songs)
+    when 'play'
+      list(songs)
+      play(songs)
+    when 'help'
       help
-      command = get_command
-    when "list"
-      list(my_songs)
-      command = get_command
-    when "play"
-      play(my_songs)
-      command = get_command
-    when "exit"
+    when 'exit'
+      exit_jukebox
       break
     else
-      puts "Invalid command, please specify a command.  For command list, type help."
-      command = get_command
+      help
     end
   end
-  exit_jukebox
   
 end
 
