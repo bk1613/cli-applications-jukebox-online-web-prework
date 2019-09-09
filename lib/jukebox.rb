@@ -13,6 +13,10 @@ songs = [
 
 def help
   puts ""
+  puts ""
+  puts ""
+  puts ""
+  puts ""
 end
 
 def play
