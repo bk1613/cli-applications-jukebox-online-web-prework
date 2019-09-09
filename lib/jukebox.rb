@@ -53,6 +53,6 @@ def run
   elsif input == "list"
     
   elsif input == "exit"
-    
+    exit_jukebox
   end
 end
