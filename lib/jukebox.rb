@@ -22,7 +22,7 @@ end
 def play(song_list)
   puts "Please enter a song name or number:"
   input_song = gets.strip
-  if (1..9).to_a.include?(song_to_play.to_i)
+  if (1..9).to_a.include?(input_song.to_i)
     
   else
     puts "Invalid input, please try again"
