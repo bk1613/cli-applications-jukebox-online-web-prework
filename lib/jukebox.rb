@@ -25,7 +25,7 @@ def play(song_list)
   if 
     
   else
-    puts ""
+    puts "Invalid input, please try again"
     
   end
 end
