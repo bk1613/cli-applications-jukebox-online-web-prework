@@ -24,8 +24,10 @@ def play
 end
 
 def list(song_list)
-  
-  
+  count = 0
+  song_list.each do |song|
+    count += 1
+  end
   
 end
 
