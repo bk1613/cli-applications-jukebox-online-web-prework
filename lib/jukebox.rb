@@ -24,9 +24,9 @@ def play
 end
 
 def list(song_list)
-  count = 0
-  song_list.each_with_index do |song |
-    count += 1
+  
+  song_list.each_with_index do |song, index|
+    
     puts "#{count}. #{song}"
   end
   
