@@ -20,6 +20,8 @@ def help
 end
 
 def play(song_list)
+  puts ""
+  input = gets.strip
   
 end
 
