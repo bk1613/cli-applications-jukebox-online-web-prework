@@ -46,5 +46,13 @@ end
 def run
   puts "Please enter a command:"
   input = gets.strip
-  
+  if input == "play"
+    
+  elsif input == "help"
+    
+  elsif input == "list"
+    
+  elsif input == "play"
+    
+  end
 end
