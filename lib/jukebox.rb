@@ -53,7 +53,15 @@ def run
   
   while input
   
-  
+    if input == "play"
+    play(song)
+  elsif input == "help"
+    help
+  elsif input == "list"
+    list(song)
+  elsif input == "exit"
+    exit_jukebox
+  end
   
   end
   
