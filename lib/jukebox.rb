@@ -24,9 +24,9 @@ def play(song_list)
   puts "Please enter a song name or number:"
   input_song = gets.strip
   if array_num.include?(input_song.to_i)
-    puts "Playing #{songs[input_song.to_i - 1]"
+    puts "Playing #{songs[input_song.to_i - 1]}"
   else
-    puts 
+    puts "Invalid input, please try again"
     
   end
 end
